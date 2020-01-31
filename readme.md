@@ -12,4 +12,8 @@ in 2020 the aim is to update it to current X3D code.
 - [ ] fix duplicated "info.css"
 - [ ] recreate "details.html", "disarts.html" in a new data structure
 - [ ] refactor pop-up windows into in-page modals
-- [ ] complete VRML-X3D conversion… and break this up into spearate jobs
+- [ ] complete VRML-X3D conversion… and break this up into separate jobs
+
+## DONE
+
+- [x] Try the [X_ITE javascript-WebGL library](http://create3000.de/x_ite/getting-started/#embedding-x-ite-within-a-web-page)

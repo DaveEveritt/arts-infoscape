@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv='Content-Type' content='text/html;charset=utf-8'></meta>
+    <link rel='stylesheet' type='text/css' href='https://www.x3dom.org/x3dom/release/x3dom.css'></link>
+    <script type='text/javascript' src='https://www.x3dom.org/x3dom/release/x3dom.js'></script>
+  </head>
+  <body>
+    <x3d id='someUniqueId' showStat='false' showLog='false' x='0px' y='0px' width='600px' height='600px'>
+      <scene DEF='scene'>
+        <ProtoDeclare name='Grid'>
+          <ProtoInterface>
+            <field accessType='initializeOnly' name='boxColour' type='SFColor' value='1 0 0'></field>
+          </ProtoInterface>
+          <ProtoBody>
+            <shape>
+              <appearance>
+                <material transparency='0.8'>
+                  <IS>
+                    <connect nodeField='emissiveColor' protoField='boxColour'></connect>
+                  </IS>
+                </material>
+              </appearance>
+              <indexedLineSet coordIndex='0 5 -1 6 11 -1 0 6 -1 1 7 -1 2 8 -1 3 9 -1 4 10 -1 5 11 -1 0 12 -1 1 13 -1 2 14 -1 3 15 -1 4 16 -1 5 17 -1 6 18 -1 7 19 -1 8 20 -1 9 21 -1 10 22 -1 11 23 -1'>
+                <coordinate point='0 0 0 0 100 0 0 200 0 0 300 0 0 400 0 0 500 0 100 0 0 100 100 0 100 200 0 100 300 0 100 400 0 100 500 0 0 0 -100 0 100 -100 0 200 -100 0 300 -100 0 400 -100 0 500 -100 100 0 -100 100 100 -100 100 200 -100 100 300 -100 100 400 -100 100 500 -100'></coordinate>
+              </indexedLineSet>
+            </shape>
+          </ProtoBody>
+        </ProtoDeclare>
+        <ProtoDeclare name='MGrid'>
+          <ProtoInterface>
+            <field accessType='initializeOnly' name='pos' type='SFVec3f' value='0 0 0'></field>
+            <field accessType='initializeOnly' name='col' type='SFColor' value='1 0 0'></field>
+          </ProtoInterface>
+          <ProtoBody>
+            <ProtoDeclare name='Grid'>
+              <ProtoInterface>
+                <field accessType='initializeOnly' name='boxColour' type='SFColor' value='1 0 0'></field>
+              </ProtoInterface>
+              <ProtoBody>
+                <shape>
+                  <appearance>
+                    <material transparency='0.8'>
+                      <IS>
+                        <connect nodeField='emissiveColor' protoField='boxColour'></connect>
+                      </IS>
+                    </material>
+                  </appearance>
+                  <indexedLineSet coordIndex='0 5 -1 6 11 -1 0 6 -1 1 7 -1 2 8 -1 3 9 -1 4 10 -1 5 11 -1 0 12 -1 1 13 -1 2 14 -1 3 15 -1 4 16 -1 5 17 -1 6 18 -1 7 19 -1 8 20 -1 9 21 -1 10 22 -1 11 23 -1'>
+                    <coordinate point='0 0 0 0 100 0 0 200 0 0 300 0 0 400 0 0 500 0 100 0 0 100 100 0 100 200 0 100 300 0 100 400 0 100 500 0 0 0 -100 0 100 -100 0 200 -100 0 300 -100 0 400 -100 0 500 -100 100 0 -100 100 100 -100 100 200 -100 100 300 -100 100 400 -100 100 500 -100'></coordinate>
+                  </indexedLineSet>
+                </shape>
+              </ProtoBody>
+            </ProtoDeclare>
+            <transform scale='2 1 1'>
+              <transform>
+                <grid>
+                  <IS>
+                    <connect nodeField='boxColour' protoField='col'></connect>
+                  </IS>
+                </grid>
+              </transform>
+              <transform translation='0 0 -100'>
+                <grid>
+                  <IS>
+                    <connect nodeField='boxColour' protoField='col'></connect>
+                  </IS>
+                </grid>
+              </transform>
+              <transform translation='0 0 -200'>
+                <grid>
+                  <IS>
+                    <connect nodeField='boxColour' protoField='col'></connect>
+                  </IS>
+                </grid>
+              </transform>
+              <IS>
+                <connect nodeField='translation' protoField='pos'></connect>
+              </IS>
+            </transform>
+          </ProtoBody>
+        </ProtoDeclare>
+        <ProtoDeclare name='Org'>
+          <ProtoInterface>
+            <field accessType='initializeOnly' name='pos' type='SFVec3f' value='0 0 0'></field>
+            <field accessType='initializeOnly' name='sz' type='SFFloat' value='1'></field>
+            <field accessType='initializeOnly' name='csz' type='SFVec3f' value='1 1 1'></field>
+            <field accessType='initializeOnly' name='col' type='SFColor' value='1 0 0'></field>
+            <field accessType='initializeOnly' name='t1' type='SFFloat' value='0'></field>
+            <field accessType='initializeOnly' name='t2' type='SFFloat' value='1'></field>
+          </ProtoInterface>
+          <ProtoBody>
+            <transform>
+              <shape>
+                <appearance>
+                  <material emissiveColor='0.1 0.1 0.1'>
+                    <IS>
+                      <connect nodeField='diffuseColor' protoField='col'></connect>
+                      <connect nodeField='transparency' protoField='t1'></connect>
+                    </IS>
+                  </material>
+                </appearance>
+                <sphere>
+                  <IS>
+                    <connect nodeField='radius' protoField='sz'></connect>
+                  </IS>
+                </sphere>
+              </shape>
+              <shape>
+                <appearance>
+                  <material emissiveColor='0.1 0.1 0.1'>
+                    <IS>
+                      <connect nodeField='diffuseColor' protoField='col'></connect>
+                      <connect nodeField='transparency' protoField='t2'></connect>
+                    </IS>
+                  </material>
+                </appearance>
+                <box>
+                  <IS>
+                    <connect nodeField='size' protoField='csz'></connect>
+                  </IS>
+                </box>
+              </shape>
+              <IS>
+                <connect nodeField='translation' protoField='pos'></connect>
+              </IS>
+            </transform>
+          </ProtoBody>
+        </ProtoDeclare>
+        <navigationInfo avatarSize='100 100 25' speed='3' type='"EXAMINE" "FLY"'></navigationInfo>
+        <worldInfo title='Arts Mapper'></worldInfo>
+        <viewpoint description='X-Y County / Length' position='600 300 1200' fieldOfView='0.785398'></viewpoint>
+        <viewpoint description='Y-Z Length / Year' orientation='0 1 0 1.5708' position='1800 300 -150' fieldOfView='0.785398'></viewpoint>
+        <viewpoint description='X-Z County / Year' orientation='1 0 0 -1.5708' position='600 1500 -150' fieldOfView='0.785398'></viewpoint>
+        <viewpoint description='X-Y Flat' position='600 300 18000' fieldOfView='0.0523599'></viewpoint>
+        <viewpoint description='Y-Z Flat' orientation='0 1 0 1.5708' position='16000 300 -150' fieldOfView='0.0523599'></viewpoint>
+        <viewpoint description='X-Z Flat' orientation='1 0 0 -1.5708' position='600 18000 -150' fieldOfView='0.0523599'></viewpoint>
+        <mGrid></mGrid>
+        <mGrid pos='200 0 0' col='0 1 0'></mGrid>
+        <mGrid pos='400 0 0' col='0 0 1'></mGrid>
+        <mGrid pos='600 0 0' col='1 0 1'></mGrid>
+        <mGrid pos='800 0 0' col='0 1 1'></mGrid>
+        <mGrid pos='1000 0 0' col='1 1 1'></mGrid>
+        <anchor description='Fourth Wall Theatre Company: 2002/03=1,000' url="javascript:window.open('./data/d565.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='936 20 0' sz='1.98' csz='2.574 2.574 2.574' col='0 0.6 0' t1='1' t2='0'></org>
+        </anchor>
+        <anchor description='Fourth Wall Theatre Company: 2001/02=1,000' url="javascript:window.open('./data/d565.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='936 20 -100' sz='1.98' csz='2.574 2.574 2.574' col='0 0.6 0' t1='1' t2='0'></org>
+        </anchor>
+        <anchor description='Fourth Wall Theatre Company: 2000/01=0' url="javascript:window.open('./data/d565.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='936 20 -200' sz='0.63' csz='0.819 0.819 0.819' col='0 0.6 0' t1='1' t2='0'></org>
+        </anchor>
+        <anchor description='High Peak Community Arts: 2002/03=114,000' url="javascript:window.open('./data/d574.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='1141 460 0' sz='21.1' csz='27.43 27.43 27.43' col='0 0.3 1' t1='0.6' t2='0.4'></org>
+        </anchor>
+        <anchor description='High Peak Community Arts: 2001/02=106,000' url="javascript:window.open('./data/d574.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='1141 460 -100' sz='20.35' csz='26.455 26.455 26.455' col='0 0.3 1' t1='0.6' t2='0.4'></org>
+        </anchor>
+        <anchor description='High Peak Community Arts: 2000/01=100,000' url="javascript:window.open('./data/d574.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='1141 460 -200' sz='19.76' csz='25.688 25.688 25.688' col='0 0.3 1' t1='0.6' t2='0.4'></org>
+        </anchor>
+        <anchor description='People Express: 2002/03=174,000' url="javascript:window.open('./data/d583.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='901 220 0' sz='26.07' csz='33.891 33.891 33.891' col='0.6 0 0.6' t1='1' t2='0'></org>
+        </anchor>
+        <anchor description='People Express: 2001/02=110,000' url="javascript:window.open('./data/d583.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='901 220 -100' sz='20.73' csz='26.949 26.949 26.949' col='0.6 0 0.6' t1='1' t2='0'></org>
+        </anchor>
+        <anchor description='People Express: 2000/01=91,000' url="javascript:window.open('./data/d583.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='901 220 -200' sz='18.85' csz='24.505 24.505 24.505' col='0.6 0 0.6' t1='1' t2='0'></org>
+        </anchor>
+        <anchor description='QArts/Studios: 2002/03=497,000' url="javascript:window.open('./data/d589.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='830 100 0' sz='44.06' csz='57.278 57.278 57.278' col='0.6 0 0.6' t1='0.6' t2='0.4'></org>
+        </anchor>
+        <anchor description='QArts/Studios: 2001/02=308,000' url="javascript:window.open('./data/d589.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='830 100 -100' sz='34.69' csz='45.097 45.097 45.097' col='0.6 0 0.6' t1='0.6' t2='0.4'></org>
+        </anchor>
+        <anchor description='QArts/Studios: 2000/01=291,000' url="javascript:window.open('./data/d589.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='830 100 -200' sz='33.72' csz='43.836 43.836 43.836' col='0.6 0 0.6' t1='0.6' t2='0.4'></org>
+        </anchor>
+        <anchor description='First Movement: 2002/03=100,000' url="javascript:window.open('./data/d593.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='875 340 0' sz='19.76' csz='25.688 25.688 25.688' col='1 0 0.2' t1='0.5' t2='0.5'></org>
+        </anchor>
+        <anchor description='First Movement: 2001/02=83,000' url="javascript:window.open('./data/d593.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='875 340 -100' sz='18.01' csz='23.413 23.413 23.413' col='1 0 0.2' t1='0.5' t2='0.5'></org>
+        </anchor>
+        <anchor description='First Movement: 2000/01=94,000' url="javascript:window.open('./data/d593.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='875 340 -200' sz='19.16' csz='24.908 24.908 24.908' col='1 0 0.2' t1='0.5' t2='0.5'></org>
+        </anchor>
+        <anchor description='City Arts: 2002/03=130,000' url="javascript:window.open('./data/d612.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='443 100 0' sz='22.53' csz='29.289 29.289 29.289' col='0.6 0 0.6'></org>
+        </anchor>
+        <anchor description='City Arts: 2001/02=152,000' url="javascript:window.open('./data/d612.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='443 100 -100' sz='24.37' csz='31.681 31.681 31.681' col='0.6 0 0.6'></org>
+        </anchor>
+        <anchor description='City Arts: 2000/01=98,000' url="javascript:window.open('./data/d612.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='443 100 -200' sz='19.57' csz='25.441 25.441 25.441' col='0.6 0 0.6'></org>
+        </anchor>
+        <anchor description='Indigo Dance Group (Salamanda Tandem): 2002/03=152,737' url="javascript:window.open('./data/d615.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='440 0 0' sz='24.43' csz='31.759 31.759 31.759' col='0 0.3 1'></org>
+        </anchor>
+        <anchor description='Indigo Dance Group (Salamanda Tandem): 2001/02=121,092' url="javascript:window.open('./data/d615.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='440 0 -100' sz='21.75' csz='28.275 28.275 28.275' col='0 0.3 1'></org>
+        </anchor>
+        <anchor description='Indigo Dance Group (Salamanda Tandem): 2000/01=90,919' url="javascript:window.open('./data/d615.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='440 0 -200' sz='18.85' csz='24.505 24.505 24.505' col='0 0.3 1'></org>
+        </anchor>
+        <anchor description='Watering Seeds: 2002/03=20,000' url="javascript:window.open('./data/d623.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='567 160 0' sz='8.84' csz='11.492 11.492 11.492' col='0 0.3 1'></org>
+        </anchor>
+        <anchor description='Watering Seeds: 2001/02=0' url="javascript:window.open('./data/d623.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='567 160 -100' sz='0.63' csz='0.819 0.819 0.819' col='0 0.3 1'></org>
+        </anchor>
+        <anchor description='Watering Seeds: 2000/01=0' url="javascript:window.open('./data/d623.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='567 160 -200' sz='0.63' csz='0.819 0.819 0.819' col='0 0.3 1'></org>
+        </anchor>
+        <anchor description='Fased In The Arts: 2002/03=16,000' url="javascript:window.open('./data/d630.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='866 20 0' sz='7.91' csz='10.283 10.283 10.283' col='0 0.3 1' t1='1' t2='0'></org>
+        </anchor>
+        <anchor description='Fased In The Arts: 2001/02=0' url="javascript:window.open('./data/d630.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='866 20 -100' sz='0.63' csz='0.819 0.819 0.819' col='0 0.3 1' t1='1' t2='0'></org>
+        </anchor>
+        <anchor description='Fased In The Arts: 2000/01=0' url="javascript:window.open('./data/d630.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='866 20 -200' sz='0.63' csz='0.819 0.819 0.819' col='0 0.3 1' t1='1' t2='0'></org>
+        </anchor>
+        <anchor description='27a Access Artspace: 2002/03=90,000' url="javascript:window.open('./data/d633.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='253 360 0' sz='18.75' csz='24.375 24.375 24.375' col='1 0 0.2' t1='1' t2='0'></org>
+        </anchor>
+        <anchor description='27a Access Artspace: 2001/02=85,093' url="javascript:window.open('./data/d633.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='253 360 -100' sz='18.23' csz='23.699 23.699 23.699' col='1 0 0.2' t1='1' t2='0'></org>
+        </anchor>
+        <anchor description='27a Access Artspace: 2000/01=99,383' url="javascript:window.open('./data/d633.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='253 360 -200' sz='19.7' csz='25.61 25.61 25.61' col='1 0 0.2' t1='1' t2='0'></org>
+        </anchor>
+        <anchor description='Bamboozle Theatre Company: 2002/03=0' url="javascript:window.open('./data/d638.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='293 160 0' sz='0.63' csz='0.819 0.819 0.819' col='0 0.3 1' t1='0.35' t2='0.65'></org>
+        </anchor>
+        <anchor description='Bamboozle Theatre Company: 2001/02=40,505' url="javascript:window.open('./data/d638.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='293 160 -100' sz='12.58' csz='16.354 16.354 16.354' col='0 0.3 1' t1='0.35' t2='0.65'></org>
+        </anchor>
+        <anchor description='Bamboozle Theatre Company: 2000/01=9,351' url="javascript:window.open('./data/d638.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='293 160 -200' sz='6.04' csz='7.852 7.852 7.852' col='0 0.3 1' t1='0.35' t2='0.65'></org>
+        </anchor>
+        <anchor description='Mantle Community Arts: 2002/03=72,297' url="javascript:window.open('./data/d648.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='226 360 0' sz='16.81' csz='21.853 21.853 21.853' col='0 0.3 1'></org>
+        </anchor>
+        <anchor description='Mantle Community Arts: 2001/02=71,233' url="javascript:window.open('./data/d648.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='226 360 -100' sz='16.68' csz='21.684 21.684 21.684' col='0 0.3 1'></org>
+        </anchor>
+        <anchor description='Mantle Community Arts: 2000/01=65,225' url="javascript:window.open('./data/d648.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='226 360 -200' sz='15.96' csz='20.748 20.748 20.748' col='0 0.3 1'></org>
+        </anchor>
+        <anchor description='Artlink East: 2002/03=43,925' url="javascript:window.open('./data/d658.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='764 220 0' sz='13.1' csz='17.03 17.03 17.03' col='0 0.3 1' t1='0.2' t2='0.8'></org>
+        </anchor>
+        <anchor description='Artlink East: 2001/02=44,336' url="javascript:window.open('./data/d658.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='764 220 -100' sz='13.16' csz='17.108 17.108 17.108' col='0 0.3 1' t1='0.2' t2='0.8'></org>
+        </anchor>
+        <anchor description='Artlink East: 2000/01=90,817' url="javascript:window.open('./data/d658.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='764 220 -200' sz='18.83' csz='24.479 24.479 24.479' col='0 0.3 1' t1='0.2' t2='0.8'></org>
+        </anchor>
+        <anchor description='Creations: 2002/03=7,000' url="javascript:window.open('./data/d665.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='107 20 0' sz='5.23' csz='6.799 6.799 6.799' col='0 0.3 1' t1='0.85' t2='0.15'></org>
+        </anchor>
+        <anchor description='Creations: 2001/02=9,370' url="javascript:window.open('./data/d665.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='107 20 -100' sz='6.05' csz='7.865 7.865 7.865' col='0 0.3 1' t1='0.85' t2='0.15'></org>
+        </anchor>
+        <anchor description='Creations: 2000/01=0' url="javascript:window.open('./data/d665.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='107 20 -200' sz='0.63' csz='0.819 0.819 0.819' col='0 0.3 1' t1='0.85' t2='0.15'></org>
+        </anchor>
+        <anchor description='New Perspectives: 2002/03=35,000' url="javascript:window.open('./data/d670.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='49 340 0' sz='11.69' csz='15.197 15.197 15.197' col='1 0 0.2' t1='0.95' t2='0.05'></org>
+        </anchor>
+        <anchor description='New Perspectives: 2001/02=30,000' url="javascript:window.open('./data/d670.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='49 340 -100' sz='10.83' csz='14.079 14.079 14.079' col='1 0 0.2' t1='0.95' t2='0.05'></org>
+        </anchor>
+        <anchor description='New Perspectives: 2000/01=25,000' url="javascript:window.open('./data/d670.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='49 340 -200' sz='9.88' csz='12.844 12.844 12.844' col='1 0 0.2' t1='0.95' t2='0.05'></org>
+        </anchor>
+        <anchor description='UKan2: 2002/03=5,000' url="javascript:window.open('./data/d671.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='106 100 0' sz='4.42' csz='5.746 5.746 5.746' col='0 0.3 1' t1='1' t2='0'></org>
+        </anchor>
+        <anchor description='UKan2: 2001/02=5,000' url="javascript:window.open('./data/d671.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='106 100 -100' sz='4.42' csz='5.746 5.746 5.746' col='0 0.3 1' t1='1' t2='0'></org>
+        </anchor>
+        <anchor description='UKan2: 2000/01=2,000' url="javascript:window.open('./data/d671.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');">
+          <org pos='106 100 -200' sz='2.8' csz='3.64 3.64 3.64' col='0 0.3 1' t1='1' t2='0'></org>
+        </anchor>
+      </scene>
+    </x3d>
+  </body>
+</html>
+
