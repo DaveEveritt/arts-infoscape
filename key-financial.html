@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<title>Infoscape key, finances</title>
+	<link rel="stylesheet" type="text/css" href="/styles/main.css" />
+</head>
+<body>
+<h1><a href="/">Infoscape</a>: map key, financial</h1>
+
+<h2>Colour</h2>
+<p>
+range of influence the organisation has:
+</p>
+<ul>
+	<li>green = local</li>
+	<li>blue = regional</li>
+	<li>red = national</li>
+	<li>purple = international</li>
+</ul>
+
+
+<h2>Size</h2>
+<p>
+Budget amount for an org in one year (scale is logarithmic - &pound;0 is just visible, &pound;1000 is small, &pound;100,000 is fairly big)
+</p>
+
+
+<h2>Shape</h2>
+<p>
+shapes merge to reflect the degree to which the organisation is disability-led:
+</p>
+<ul>
+	<li>square = fully disability-led</li>
+	<li>square/sphere = part disability-led (% indicated by hybrid shape)</li>
+	<li>sphere = not disability-led</li>
+</ul>
+
+
+<h2>Axes</h2>
+<p>
+as viewed when page loads:
+</p>
+<ul>
+	<li>left - right (X axis) = county (coloured): Nottinghamshire, Lincolnshire, Leicestershire, High Peak, Northamptonshire</li>
+	<li>top - bottom (Y axis) = time established (1 grid square = 5 years, 0 at bottom)</li>
+	<li>front - back (Z axis) = financial year (grid = 1 year, back = previous years, front = 2002/03)</li>
+</ul>
+
+<p>
+So each view basically contains 3 bits of comparative information...
+</p>
+<ul>
+	<li>View 1: X-Y = County / Time established / Budget</li>
+	<li>View 2: Y-Z = Time established / Year / Budget</li>
+	<li>View 3: X-Z = County / Year / Budget</li>
+</ul>
+
+
+<h2>Preset example views</h2>
+
+<h3>View 1</h3>
+<p>
+a county-by-county comparison showing how budget is affected by establishment time for this year (perspective provides an idea of the whole picture for last year and the year before).
+</p>
+
+<h3>View 2</h3>
+<p>
+comparison of how length of establishment affects budget over 3 years (irrespective of county, although this is still visible due to perspective).
+</p>
+</body>
+</html>
