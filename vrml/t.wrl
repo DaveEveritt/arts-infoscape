@@ -5,7 +5,7 @@ Transform {
 	Shape {
 		appearance Appearance {
 			texture ImageTexture {
-				url	"./counties_named.gif"
+				url	"./counties-transparent.gif"
 				repeatS TRUE
 				repeatT TRUE
 			}
