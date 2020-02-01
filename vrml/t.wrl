@@ -2,34 +2,34 @@
 Transform {
 	translation	383 -2 -420
 	children [
-	Shape {
-		appearance Appearance {
-			texture ImageTexture {
-				url	"./counties-transparent.gif"
-				repeatS TRUE
-				repeatT TRUE
-			}
-			textureTransform TextureTransform {
-				center            0 0
-				translation       0 0 
-				scale 1 1
-				rotation -1.57
-			}
-		}
-		geometry IndexedFaceSet {
-			coord Coordinate {
-				point [
-					172 0 190,
-					0 0 190
-					0 0 0,
-					172 0 0,
-				]
-			}
-			coordIndex [
-				0, 3, 2, 1, -1
-			]
-		}
-	}
-    ]
+  	Shape {
+  		appearance Appearance {
+  			texture ImageTexture {
+  				url	"./counties-transparent.gif"
+  				repeatS TRUE
+  				repeatT TRUE
+  			}
+  			textureTransform TextureTransform {
+  				center            0 0
+  				translation       0 0 
+  				scale 1 1
+  				rotation -1.57
+  			}
+  		}
+  		geometry IndexedFaceSet {
+  			coord Coordinate {
+  				point [
+  					172 0 190,
+  					0 0 190
+  					0 0 0,
+  					172 0 0,
+  				]
+  			}
+  			coordIndex [
+  				0, 3, 2, 1, -1
+  			]
+  		}
+  	}
+  ]
 }
 
