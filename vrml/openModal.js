@@ -4,7 +4,9 @@
 // }
 
 const info583 = document.getElementById("583");
+const info = document.getElementById("info");
 console.log(info583);
+info.innerHTML = `ID = ${info583}`;
 
 // function loadInfo(info) {
 //   // console.log(info);
