@@ -26,3 +26,4 @@ in 2020 the aim is to update it to be accessible in modern browsers.
 - [X_ITE javascript-WebGL library](http://create3000.de/x_ite/getting-started/#embedding-x-ite-within-a-web-page)
 - [X3Dv4 Highlights](https://www.web3d.org/x3dv4-highlights)
 - [VRML V2.0 Editing Kit for VSCode](https://github.com/up-tri/vrml-v2.0-kit)
+- [Embedding X_ITE within a Web Page](http://create3000.de/x_ite/getting-started/#embedding-x-ite-within-a-web-page)
