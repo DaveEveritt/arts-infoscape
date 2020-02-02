@@ -35,3 +35,4 @@ in 2020 the aim is to update it to be accessible in modern browsers.
 - [How can I trigger JavaScript in a VRML Anchor—is it possible to use an Event Listener?](https://stackoverflow.com/q/60027233/123033)
 - [x3dom/LOBBY](https://gitter.im/x3dom/LOBBY#)
 - [Mailing List: x3dom-users](https://sourceforge.net/projects/x3dom/lists/x3dom-users)
+- [Using HTML Elements in a Canvas](http://www.informit.com/articles/article.aspx?p=1903884&seqNum=8)
