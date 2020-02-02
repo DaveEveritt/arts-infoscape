@@ -27,3 +27,11 @@ in 2020 the aim is to update it to be accessible in modern browsers.
 - [X3Dv4 Highlights](https://www.web3d.org/x3dv4-highlights)
 - [VRML V2.0 Editing Kit for VSCode](https://github.com/up-tri/vrml-v2.0-kit)
 - [Embedding X_ITE within a Web Page](http://create3000.de/x_ite/getting-started/#embedding-x-ite-within-a-web-page)
+
+## Temporary
+
+- [VRML Anchor Node](http://lighthouse3d.com/vrml/tutorial/index.shtml?anchor)
+- [Accessing the External Browser](http://create3000.de/x_ite/accessing-the-external-browser/)
+- [How can I trigger JavaScript in a VRML Anchor—is it possible to use an Event Listener?](https://stackoverflow.com/q/60027233/123033)
+- [x3dom/LOBBY](https://gitter.im/x3dom/LOBBY#)
+- [Mailing List: x3dom-users](https://sourceforge.net/projects/x3dom/lists/x3dom-users)
