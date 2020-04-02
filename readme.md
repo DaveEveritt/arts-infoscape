@@ -12,6 +12,7 @@ in 2020 the aim is to update it to be accessible in modern browsers.
 - [ ] fix duplicated "info.css"
 - [ ] recreate "details.html", "disarts.html" in a new data structure
 - [ ] refactor pop-up windows in 'Anchor' tags into in-page modals
+- [ ] check through Andreas' [Gitter messages](gitter-text.md)
 
 ## DONE
 
