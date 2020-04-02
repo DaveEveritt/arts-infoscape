@@ -465,7 +465,8 @@ Transform {
 	}
 	Anchor {
 	    # url	"javascript:window.open('./data/638.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
-	    url	"./data/638.html"
+	    # url	"./data/638.html"
+	    url	"javascript:alert('test')"
 	    description	"Bamboozle Theatre Company"
 	    children [
 		r { pos 457.1 0.1 -300.8 } 

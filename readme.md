@@ -10,12 +10,14 @@ in 2020 the aim is to update it to be accessible in modern browsers.
 
 - [ ] update all XHTML to HTML5
 - [ ] fix duplicated "info.css"
+- [ ] fix CORS issue JS alert in Bamboozle Theatre Company (see manifest.js)
 - [ ] recreate "details.html", "disarts.html" in a new data structure
 - [ ] refactor pop-up windows in 'Anchor' tags into in-page modals
 - [ ] check through Andreas' [Gitter messages](gitter-text.md)
 
 ## DONE
 
+- [x] FAIL: CORS issue JS alert in Bamboozle Theatre Company with manifest.js permissions
 - [x] integrate Adreas' changes to t1.wrl
 - [x] (REDUNDANT) complete VRML-X3D conversion… and break this up into separate jobs
 - [x] Try the X_ITE javascript-WebGL library
@@ -24,6 +26,8 @@ in 2020 the aim is to update it to be accessible in modern browsers.
 
 ## Resources
 
+- [chrome.permissions](https://developer.chrome.com/apps/permissions#manifest)
+- [How can I trigger JavaScript in a VRML Anchor—is it possible to use an Event Listener?](https://stackoverflow.com/q/60027233/123033)
 - [Answer to "Where are the issues in this conversion from VRML to X3D?"](https://stackoverflow.com/a/60004540/123033)
 - [X_ITE javascript-WebGL library](http://create3000.de/x_ite/getting-started/#embedding-x-ite-within-a-web-page)
 - [X3Dv4 Highlights](https://www.web3d.org/x3dv4-highlights)
@@ -34,7 +38,7 @@ in 2020 the aim is to update it to be accessible in modern browsers.
 
 - [VRML Anchor Node](http://lighthouse3d.com/vrml/tutorial/index.shtml?anchor)
 - [Accessing the External Browser](http://create3000.de/x_ite/accessing-the-external-browser/)
-- [How can I trigger JavaScript in a VRML Anchor—is it possible to use an Event Listener?](https://stackoverflow.com/q/60027233/123033)
 - [x3dom/LOBBY](https://gitter.im/x3dom/LOBBY#)
 - [Mailing List: x3dom-users](https://sourceforge.net/projects/x3dom/lists/x3dom-users)
 - [Using HTML Elements in a Canvas](http://www.informit.com/articles/article.aspx?p=1903884&seqNum=8)
+- [JSON Validator](https://www.jsonschemavalidator.net/)
