@@ -3,6 +3,8 @@
   // document.window.open(`./data/${info}.html`,'details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');
 // }
 
+// TEST one specific example
+
 const info583 = document.getElementById("583");
 const info = document.getElementById("info");
 console.log(info583);

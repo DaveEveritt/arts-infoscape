@@ -15,6 +15,7 @@ in 2020 the aim is to update it to be accessible in modern browsers.
 
 ## DONE
 
+- [x] integrate Adreas' changes to t1.wrl
 - [x] (REDUNDANT) complete VRML-X3D conversion… and break this up into separate jobs
 - [x] Try the X_ITE javascript-WebGL library
 
