@@ -42,3 +42,5 @@ in 2020 the aim is to update it to be accessible in modern browsers.
 - [Mailing List: x3dom-users](https://sourceforge.net/projects/x3dom/lists/x3dom-users)
 - [Using HTML Elements in a Canvas](http://www.informit.com/articles/article.aspx?p=1903884&seqNum=8)
 - [JSON Validator](https://www.jsonschemavalidator.net/)
+
+    <!-- "*://127.0.0.1:5500/*", -->

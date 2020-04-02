@@ -1,6 +1,5 @@
 {
   "permissions": [
-    "*://127.0.0.1:5500/*",
     "*://daveeveritt.github.io/arts-infoscape/*",
     "webRequest"
   ]
