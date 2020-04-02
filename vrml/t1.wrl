@@ -192,364 +192,416 @@ Transform {
 		url	"t.wrl"
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/566.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/566.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/566.html"
 	    description	"Derby Women's Centre"
 	    children [
 		institute { pos 435.3 0.1 -335.6 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/574.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/574.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/574.html"
 	    description	"High Peak Community Arts"
 	    children [
 		r { pos 400 0.1 -385 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/576.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/576.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/576.html"
 	    description	"Charlesworth Primary School"
 	    children [
 		school { pos 400.6 0.1 -392.9 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/579.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/579.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/579.html"
 	    description	"Hope Valley College"
 	    children [
 		school { pos 416.7 0.1 -383.4 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/583.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/583.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/583.html"
 	    description	"People Express"
 	    children [
 		i { pos 429.9 0.1 -319.6 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/589.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/589.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/589.html"
 	    description	"QArts/Studios"
 	    children [
 		i { pos 430 0.1 -335 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/591.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/591.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/591.html"
 	    description	"Stroke Unit, Derbyshire Royal Infirmary"
 	    children [
 		institute { pos 435.8 0.1 -335.3 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/592.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/592.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/592.html"
 	    description	"Park View Primary, Derby"
 	    children [
 		school { pos 438.3 0.1 -338.6 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/593.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/593.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/593.html"
 	    description	"First Movement"
 	    children [
 		n { pos 429.9 0.1 -360.3 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/594.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/594.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/594.html"
 	    description	"St. Benedict R.C. School, Visual Impairment Unit"
 	    children [
 		institute { pos 434.6 0.1 -338.6 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/595.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/595.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/595.html"
 	    description	"Beckett Primary, Derby"
 	    children [
 		school { pos 434.8 0.1 -336 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/597.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/597.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/597.html"
 	    description	"Brackensdale Junior School, Communty Unit"
 	    children [
 		institute { pos 432.7 0.1 -336.6 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/598.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/598.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/598.html"
 	    description	"Moorhead Primary, Derby"
 	    children [
 		school { pos 437.6 0.1 -332.6 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/600.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/600.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/600.html"
 	    description	"Derby Deaf Club"
 	    children [
 		institute { pos 434.7 0.1 -336.9 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/601.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/601.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/601.html"
 	    description	"Nightingale Junior, Derby"
 	    children [
 		school { pos 436.3 0.1 -333.4 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/603.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/603.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/603.html"
 	    description	"St Mary's Primary, Derby"
 	    children [
 		school { pos 435.2 0.1 -336.8 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/604.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/604.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/604.html"
 	    description	"Griffe Field Primary, Derby"
 	    children [
 		school { pos 432.5 0.1 -332.5 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/605.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/605.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/605.html"
 	    description	"Leicester Road Day Centre, Melton Mowbray"
 	    children [
 		institute { pos 474.7 0.1 -318.8 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/606.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/606.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/606.html"
 	    description	"Ivy House Special School, Derby"
 	    children [
 		school { pos 436.1 0.1 -334.9 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/607.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/607.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/607.html"
 	    description	"Oakham Day Centre, Rutland"
 	    children [
 		institute { pos 485.6 0.1 -309 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/608.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/608.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/608.html"
 	    description	"Parkwood School, Alfreton"
 	    children [
 		school { pos 440.5 0.1 -355.5 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/609.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/609.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/609.html"
 	    description	"Ash Green, Specialist Learning Disability Resource"
 	    children [
 		institute { pos 434.8 0.1 -371.5 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/610.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/610.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/610.html"
 	    description	"Ashgate Croft School, Chesterfield"
 	    children [
 		school { pos 436.3 0.1 -371.7 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/611.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/611.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/611.html"
 	    description	"Highfields School, Matlock"
 	    children [
 		school { pos 431.2 0.1 -361.2 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/612.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/612.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/612.html"
 	    description	"City Arts"
 	    children [
 		i { pos 455.9 0.1 -341.3 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/615.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/615.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/615.html"
 	    description	"Indigo Dance Group (Salamanda Tandem)"
 	    children [
 		r { pos 456.1 0.1 -341.5 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/623.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/623.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/623.html"
 	    description	"Watering Seeds"
 	    children [
 		r { pos 454 0.1 -361.3 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/625.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/625.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/625.html"
 	    description	"Red oaks"
 	    children [
 		institute { pos 457.4 0.1 -359.6 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/626.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/626.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/626.html"
 	    description	"West Notts College"
 	    children [
 		school { pos 454.2 0.1 -358.6 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/628.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/628.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/628.html"
 	    description	"Willow Wood Day Centre"
 	    children [
 		institute { pos 450.6 0.1 -358.6 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/630.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/630.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/630.html"
 	    description	"Fased In The Arts"
 	    children [
 		r { pos 440 0.1 -350 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/633.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/633.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/633.html"
 	    description	"27a Access Artspace"
 	    children [
 		n { pos 458.9 0.1 -304.3 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/635.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/635.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/635.html"
 	    description	"Roman Way Day Centre, Market Harborough"
 	    children [
 		institute { pos 473.5 0.1 -287.5 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/637.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/637.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/637.html"
 	    description	"Mosaic, Leicester Disability Services"
 	    children [
 		institute { pos 458 0.1 -304.5 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/638.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/638.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/638.html"
 	    description	"Bamboozle Theatre Company"
 	    children [
 		r { pos 457.1 0.1 -300.8 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/640.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/640.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/640.html"
 	    description	"Ellesmere College, Leicester"
 	    children [
 		school { pos 456.8 0.1 -302.6 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/642.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/642.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/642.html"
 	    description	"Ashmount School, Loughborough"
 	    children [
 		school { pos 453.3 0.1 -318.6 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/648.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/648.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/648.html"
 	    description	"Mantle Community Arts"
 	    children [
 		r { pos 442.4 0.1 -314.5 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/650.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/650.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/650.html"
 	    description	"Forrest Way School"
 	    children [
 		school { pos 444.6 0.1 -313.7 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/652.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/652.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/652.html"
 	    description	"Ibstock Community College"
 	    children [
 		school { pos 440.6 0.1 -310.4 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/658.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/658.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/658.html"
 	    description	"Artlink East"
 	    children [
 		r { pos 491.6 0.1 -335.7 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/660.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/660.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/660.html"
 	    description	"United Hospitals and NHS Trust Lincolnshire"
 	    children [
 		institute { pos 491.4 0.1 -336.8 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/662.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/662.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/662.html"
 	    description	"Ancaster Day Centre"
 	    children [
 		institute { pos 496.9 0.1 -368.9 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/665.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/665.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/665.html"
 	    description	"Creations"
 	    children [
 		r { pos 467 0.1 -243.9 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/667.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/667.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/667.html"
 	    description	"Nene Day Centre, Northamtpon"
 	    children [
 		institute { pos 477.1 0.1 -260 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/668.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/668.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/668.html"
 	    description	"Delapre Middle School, Northampton"
 	    children [
 		school { pos 474.7 0.1 -259.1 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/669.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/669.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/669.html"
 	    description	"The Links, Brackley"
 	    children [
 		institute { pos 459 0.1 -236.4 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/670.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/670.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/670.html"
 	    description	"New Perspectives"
 	    children [
 		n { pos 457.4 0.1 -262.7 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/671.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/671.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/671.html"
 	    description	"UKan2"
 	    children [
 		r { pos 458.7 0.1 -262.7 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/672.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/672.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/672.html"
 	    description	"Silverstone County Infants School"
 	    children [
 		school { pos 466.9 0.1 -243.8 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/677.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/677.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/677.html"
 	    description	"Riverside Resource Centre, Towcester"
 	    children [
 		institute { pos 469.5 0.1 -249.8 } 
 	    ]
 	}
 	Anchor {
-	    url	"javascript:window.open('./data/678.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    # url	"javascript:window.open('./data/678.html','details','height=550,width=400,top=50,left=50,menubar=no,status=no,toolbar=no,titlebar=no');"
+	    url	"./data/678.html"
 	    description	"Daventry Tertiary College"
 	    children [
 		school { pos 456.7 0.1 -261.8 } 

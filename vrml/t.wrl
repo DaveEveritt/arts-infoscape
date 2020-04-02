@@ -11,7 +11,7 @@ Transform {
   			}
   			textureTransform TextureTransform {
   				center            0 0
-  				translation       0 0 
+  				translation       0 0
   				scale 1 1
   				rotation -1.57
   			}
@@ -20,9 +20,9 @@ Transform {
   			coord Coordinate {
   				point [
   					172 0 190,
-  					0 0 190
+  					0 0 190,
   					0 0 0,
-  					172 0 0,
+  					172 0 0
   				]
   			}
   			coordIndex [
