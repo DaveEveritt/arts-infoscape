@@ -4,12 +4,11 @@ A 2002 experimental "proof of concept" web-delivered 3D visualisation interface 
 
 The data was about arts- and disability-related organisations in the East Midlands, U.K. and received Arts Council England funding from 2003-4.
 
-in 2020 the aim is to update it to be accessible in modern browsers.
+From 2020, the aim is to update it to be accessible in modern browsers.
 
 ## TO DO
 
 - [ ] update all XHTML to HTML5
-- [ ] fix duplicated "info.css"
 - [ ] fix CORS issue JS alert in Bamboozle Theatre Company (see manifest.js)
 - [ ] recreate "details.html", "disarts.html" in a new data structure
 - [ ] refactor pop-up windows in 'Anchor' tags into in-page modals
@@ -17,7 +16,8 @@ in 2020 the aim is to update it to be accessible in modern browsers.
 
 ## DONE
 
-- [x] FAIL: CORS issue JS alert in Bamboozle Theatre Company with manifest.js permissions
+- [x] fix duplicated "info.css"
+- [x] FAIL: Bamboozle Theatre Company CORS alert with manifest.js permissions
 - [x] integrate Adreas' changes to t1.wrl
 - [x] (REDUNDANT) complete VRML-X3D conversion… and break this up into separate jobs
 - [x] Try the X_ITE javascript-WebGL library
@@ -26,6 +26,7 @@ in 2020 the aim is to update it to be accessible in modern browsers.
 
 ## Resources
 
+- [Convert everything to X3D](https://castle-engine.io/convert.php) ([supported models](https://castle-engine.io/creating_data_model_formats.php))
 - [chrome.permissions](https://developer.chrome.com/apps/permissions#manifest)
 - [How can I trigger JavaScript in a VRML Anchor—is it possible to use an Event Listener?](https://stackoverflow.com/q/60027233/123033)
 - [Answer to "Where are the issues in this conversion from VRML to X3D?"](https://stackoverflow.com/a/60004540/123033)
