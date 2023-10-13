@@ -44,4 +44,21 @@ From 2020, the aim is to update it to be accessible in modern browsers.
 - [Using HTML Elements in a Canvas](http://www.informit.com/articles/article.aspx?p=1903884&seqNum=8)
 - [JSON Validator](https://www.jsonschemavalidator.net/)
 
-    <!-- "*://127.0.0.1:5500/*", -->
+## OLD conf file:
+
+<!--
+<VirtualHost 94.76.200.197:80>
+	ServerName arts-infoscape.com
+	ServerAlias www.arts-infoscape.com
+	DocumentRoot /home/arts-infoscape/html
+	ScriptAlias /cgi-bin/ /home/arts-infoscape/cgi-bin/
+    CustomLog "|/usr/sbin/rotatelogs /home/arts-infoscape/logs/access.log.%Y-%m-%d 5M" combined
+    ErrorLog "|/usr/sbin/rotatelogs /home/arts-infoscape/logs/error.log.%Y-%m-%d 5M"
+	<Directory /home/arts-infoscape/html>
+		AllowOverride None
+		Order allow,deny
+		Allow from all
+	</Directory>
+</VirtualHost>
+-->
+
