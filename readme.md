@@ -1,5 +1,7 @@
 # Infoscape
 
+View at: https://daveeveritt.github.io/arts-infoscape/
+
 A 2002 experimental "proof of concept" web-delivered 3D visualisation interface for multiple information sources originally using VRML. The original plan was to convert it to X3D, but on advice, this is not necessary as the [Web 3D Consortium](https://www.web3d.org/) recognises both VRML and X3D as current valid formats.
 
 The data was about arts- and disability-related organisations in the East Midlands, U.K. and received Arts Council England funding from 2003-4.
